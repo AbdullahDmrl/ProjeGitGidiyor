@@ -25,132 +25,28 @@ td,th {border:1px solid #009;padding:.25em .5em}
 <body>
 <table cellspacing="0" cellpadding="0" class="testOverview">
 <tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1">ProjeGitGidiyor</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">8</td><td class="numi">0</td><td class="numi">31,8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">ProjeGitGidiyor</a></td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi">0</td><td class="numi">92,8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr id="t1"><th colspan="5">ProjeGitGidiyor &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td>TestSteps.testSteps</td><td><a href="#m1"><b>Login</b>  </a></td><td class="numi">1</td><td>1633360569301</td><td class="numi">31767</td></tr>
-<tr><th colspan="5">ProjeGitGidiyor &#8212; skipped (configuration methods)</th></tr>
-<tr class="skippedodd"><td>TestSteps.testSteps</td><td><a href="#m2"><b>BitisIslemleri</b>  </a></td><td class="numi">1</td><td>1633360601086</td><td class="numi">0</td></tr>
-<tr><th colspan="5">ProjeGitGidiyor &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="8">TestSteps.testSteps</td><td><a href="#m3"><b>test1EntryCheck</b>  </a></td><td class="numi">1</td><td>1633360601082</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>test2LoginCheck</b>  </a></td><td class="numi">1</td><td>1633360601083</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>test5BegendiklerimCheck</b>  </a></td><td class="numi">1</td><td>1633360601085</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m6"><b>test3SearchResultsCheck</b>  </a></td><td class="numi">1</td><td>1633360601084</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m7"><b>test6SepetEklendiPupUpCheck</b>  </a></td><td class="numi">1</td><td>1633360601085</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m8"><b>test7urunSepettenSilmeCheck</b>  </a></td><td class="numi">1</td><td>1633360601086</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m9"><b>test8urunBegendiklerdenSilmeCheck</b>  </a></td><td class="numi">1</td><td>1633360601086</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m10"><b>test4UrunListePopupCheck</b>  </a></td><td class="numi">1</td><td>1633360601084</td><td class="numi">0</td></tr>
+<tr id="t1"><th colspan="5">ProjeGitGidiyor &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="8">TestSteps.testSteps</td><td><a href="#m1"><b>test1EntryCheck</b>  </a></td><td class="numi">1</td><td>1633364069194</td><td class="numi">59</td></tr><tr class="passedodd"><td><a href="#m2"><b>test2LoginCheck</b>  </a></td><td class="numi">1</td><td>1633364069255</td><td class="numi">11402</td></tr><tr class="passedodd"><td><a href="#m3"><b>test3SearchResultsCheck</b>  </a></td><td class="numi">1</td><td>1633364080659</td><td class="numi">24307</td></tr><tr class="passedodd"><td><a href="#m4"><b>test4UrunListePopupCheck</b>  </a></td><td class="numi">1</td><td>1633364104968</td><td class="numi">11676</td></tr><tr class="passedodd"><td><a href="#m5"><b>test5BegendiklerimCheck</b>  </a></td><td class="numi">1</td><td>1633364116644</td><td class="numi">4632</td></tr><tr class="passedodd"><td><a href="#m6"><b>test6SepetEklendiPupUpCheck</b>  </a></td><td class="numi">1</td><td>1633364121277</td><td class="numi">2440</td></tr><tr class="passedodd"><td><a href="#m7"><b>test7urunSepettenSilmeCheck</b>  </a></td><td class="numi">1</td><td>1633364123717</td><td class="numi">22023</td></tr><tr class="passedodd"><td><a href="#m8"><b>test8urunBegendiklerdenSilmeCheck</b>  </a></td><td class="numi">1</td><td>1633364145740</td><td class="numi">1880</td></tr>
 </table>
 <h1>ProjeGitGidiyor</h1>
-<h2 id="m1">TestSteps.testSteps:Login</h2>
-<div>
-<div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 26.652
-  (Session info: chrome=94.0.4606.61)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;LAPTOP-J0OOG9LU&apos;, ip: &apos;100.99.38.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ademi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 11794c2d4c29d04dfd2ec68129555fd0
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at Utils.BaseDriverSingle.Login(BaseDriverSingle.java:42)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</div>
-</div>
+<h2 id="m1">TestSteps.testSteps:test1EntryCheck</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">TestSteps.testSteps:BitisIslemleri</h2>
+<h2 id="m2">TestSteps.testSteps:test2LoginCheck</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">TestSteps.testSteps:test2LoginCheck</h2>
-<div>
-<div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 26.652
-  (Session info: chrome=94.0.4606.61)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;LAPTOP-J0OOG9LU&apos;, ip: &apos;100.99.38.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ademi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 11794c2d4c29d04dfd2ec68129555fd0
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at Utils.BaseDriverSingle.Login(BaseDriverSingle.java:42)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</div>
-</div>
+<h2 id="m3">TestSteps.testSteps:test3SearchResultsCheck</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m4">TestSteps.testSteps:test5BegendiklerimCheck</h2>
-<div>
-<div class="stacktrace">java.lang.Throwable: Method testSteps.test5BegendiklerimCheck()[pri:0, instance:TestSteps.testSteps@1f021e6c] depends on not successfully finished methods
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 15 stack frames</div>
-</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">TestSteps.testSteps:test3SearchResultsCheck</h2>
-<div>
-<div class="stacktrace">java.lang.Throwable: Method testSteps.test3SearchResultsCheck()[pri:0, instance:TestSteps.testSteps@1f021e6c] depends on not successfully finished methods
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 15 stack frames</div>
-</div>
+<h2 id="m5">TestSteps.testSteps:test4UrunListePopupCheck</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">TestSteps.testSteps:test6SepetEklendiPupUpCheck</h2>
-<div>
-<div class="stacktrace">java.lang.Throwable: Method testSteps.test6SepetEklendiPupUpCheck()[pri:0, instance:TestSteps.testSteps@1f021e6c] depends on not successfully finished methods
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 15 stack frames</div>
-</div>
+<h2 id="m6">TestSteps.testSteps:test7urunSepettenSilmeCheck</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">TestSteps.testSteps:test7urunSepettenSilmeCheck</h2>
-<div>
-<div class="stacktrace">java.lang.Throwable: Method testSteps.test7urunSepettenSilmeCheck()[pri:0, instance:TestSteps.testSteps@1f021e6c] depends on not successfully finished methods
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 15 stack frames</div>
-</div>
+<h2 id="m7">TestSteps.testSteps:test8urunBegendiklerdenSilmeCheck</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">TestSteps.testSteps:test8urunBegendiklerdenSilmeCheck</h2>
-<div>
-<div class="stacktrace">java.lang.Throwable: Method testSteps.test8urunBegendiklerdenSilmeCheck()[pri:0, instance:TestSteps.testSteps@1f021e6c] depends on not successfully finished methods
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 15 stack frames</div>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">TestSteps.testSteps:test4UrunListePopupCheck</h2>
-<div>
-<div class="stacktrace">java.lang.Throwable: Method testSteps.test4UrunListePopupCheck()[pri:0, instance:TestSteps.testSteps@1f021e6c] depends on not successfully finished methods
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 15 stack frames</div>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">TestSteps.testSteps:test1EntryCheck</h2>
-<div>
-<div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 26.652
-  (Session info: chrome=94.0.4606.61)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;LAPTOP-J0OOG9LU&apos;, ip: &apos;100.99.38.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ademi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 11794c2d4c29d04dfd2ec68129555fd0
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at Utils.BaseDriverSingle.Login(BaseDriverSingle.java:42)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</div>
-</div>
+<h2 id="m8">TestSteps.testSteps:test6SepetEklendiPupUpCheck</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
