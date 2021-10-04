@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ProjeGitGidiyor(failed)">
+    <classes>
+      <class name="TestSteps.testSteps">
+        <methods>
+          <include name="test6SepetEklendiPupUpCheck"/>
+          <include name="test2LoginCheck"/>
+          <include name="BitisIslemleri"/>
+          <include name="test8urunBegendiklerdenSilmeCheck"/>
+          <include name="test1EntryCheck"/>
+          <include name="test3SearchResultsCheck"/>
+          <include name="test5BegendiklerimCheck"/>
+          <include name="test4UrunListePopupCheck"/>
+          <include name="test7urunSepettenSilmeCheck"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- TestSteps.testSteps -->
+    </classes>
+  </test> <!-- ProjeGitGidiyor(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
