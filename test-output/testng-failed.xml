@@ -9,11 +9,10 @@
           <include name="test2LoginCheck"/>
           <include name="BitisIslemleri"/>
           <include name="test8urunBegendiklerdenSilmeCheck"/>
-          <include name="test1EntryCheck"/>
           <include name="test3SearchResultsCheck"/>
-          <include name="test5BegendiklerimCheck"/>
           <include name="test4UrunListePopupCheck"/>
           <include name="test7urunSepettenSilmeCheck"/>
+          <include name="test5BegendiklerimPageCheck"/>
           <include name="Login"/>
         </methods>
       </class> <!-- TestSteps.testSteps -->

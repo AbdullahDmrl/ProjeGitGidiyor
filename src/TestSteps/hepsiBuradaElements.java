@@ -36,10 +36,13 @@ public class hepsiBuradaElements  {
     public WebElement searchResultsText;
 
     @FindBy(css = "div#pagination>ul>li:nth-child(2)")
-    public WebElement secondButton;
+    public WebElement secondPageBtn;
 
-    @FindBy(xpath = "(//p[@class='hb-pl-cn'])[5]")   // (//h3[@class='product-title title'])[5]
-    public WebElement besinciUrun;  //  ul.product-list.results-container.do-flex.list>li:nth-child(6)
+   @FindBy(css = "ul.product-list.results-container.do-flex.list>li")
+   public List <WebElement> secondPagProdList;
+
+    @FindBy(css = "h1#product-name")
+    public WebElement desiredProductName;
 
     @FindBy(xpath = "//div[text()='Beğen']")
     public WebElement begenButton;
@@ -48,9 +51,9 @@ public class hepsiBuradaElements  {
     public WebElement listeEklediPopup;
 
    @FindBy(linkText = "Beğendiklerim")
-   public WebElement begendiklerimBtn;
+   public WebElement Begendiklerim;
 
-    @FindBy(xpath = "//h3[@data-test-id='product-card-name']")
+    @FindBy(css = "div.infinite-scroll-holder>ul>div")
     public List<WebElement> begendiklerimList;
 
     @FindBy(xpath = "(//button[text()='Seç'])[2]")
@@ -68,27 +71,29 @@ public class hepsiBuradaElements  {
     @FindBy(xpath = "//span[text()='Sepetim']")
     public WebElement sepetimButton;
 
-   @FindBy(css = "div.product_name_3Lh3t")
-   public List<WebElement> sepetProductNames;
+   @FindBy(css = "section#onboarding_item_list>ul>li")  // sepProd Names:  div.product_name_3Lh3t
+   public List<WebElement> sepProductList;
 
-   @FindBy(xpath = "//a[@aria-label='Ürünü Kaldır']")
-   public WebElement kaldirButton;
+    @FindBy(css = "a[aria-label='Ürünü Kaldır']")  // "//a[@aria-label='Ürünü Kaldır']"
+    public List<WebElement>  kaldirButns;
 
     @FindBy(xpath = "//button[text()='Sil']")
     public WebElement silButton;
 
     @FindBy(xpath = "//span[text()='Ürün sepetinizden silinmiştir']")
-    public WebElement kaldirKontrol;
+    public WebElement SepSilPupupText;
+
     @FindBy(xpath = " //span[text()='KK']")
     public WebElement kaanBtn;
 
     @FindBy(xpath = "//a[text()='Beğendiklerim']")
     public WebElement begendiklerimTitle;
 
-    @FindBy(css = "button#StickActionHeader-RemoveSelected")
-    public WebElement sillBtn;
+   @FindBy(css = "button#StickActionHeader-RemoveSelected")
+    public WebElement deleteBtn;
 
     @FindBy(xpath = "(//button[text()='Sil'])[2]")
-    public WebElement confsilBtn;
+    public WebElement confirmDeleteBtn;
+
 
 }
